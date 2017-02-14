@@ -25,3 +25,9 @@ C:\Users\Pheon\Desktop\A.T.O.M\Voice Recognition\Atom\Voice Recognition\obj\Debu
 C:\Users\Pheon\Desktop\ProjectAtom\VoiceRecognition\Atom\Voice Recognition\bin\Debug\Voice Recognition.exe.config
 C:\Users\Pheon\Desktop\ProjectAtom\VoiceRecognition\Atom\Voice Recognition\obj\Debug\Voice Recognition.exe
 C:\Users\Pheon\Desktop\ProjectAtom\VoiceRecognition\Atom\Voice Recognition\obj\Debug\Voice Recognition.pdb
+C:\Users\Pheon\Desktop\ProjectAtom\VoiceRecognition\Atom\Voice Recognition\bin\Debug\Voice Recognition.exe
+C:\Users\Pheon\Desktop\ProjectAtom\VoiceRecognition\Atom\Voice Recognition\bin\Debug\Voice Recognition.pdb
+C:\Users\Pheon\Desktop\ProjectAtom\VoiceRecognition\Atom\Voice Recognition\obj\Debug\Voice Recognition.csprojResolveAssemblyReference.cache
+C:\Users\Pheon\Desktop\ProjectAtom\VoiceRecognition\Atom\Voice Recognition\obj\Debug\Voice_Recognition.Form1.resources
+C:\Users\Pheon\Desktop\ProjectAtom\VoiceRecognition\Atom\Voice Recognition\obj\Debug\Voice_Recognition.Properties.Resources.resources
+C:\Users\Pheon\Desktop\ProjectAtom\VoiceRecognition\Atom\Voice Recognition\obj\Debug\Voice Recognition.csproj.GenerateResource.Cache

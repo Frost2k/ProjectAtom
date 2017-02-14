@@ -26,11 +26,14 @@ namespace Voice_Recognition
             Choices commands = new Choices();
             commands.Add(new string[]{"hi",
                 // numbers segment
-                "one","two","three","four","five","six",
-                "seven","eight","nine","zero","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen","twenty",
-                "twenty one","twenty two","twenty three","twenty four","twenty five","twenty six","twenty seven","twenty eight",
-                "twenty nine","thirty","thirty one","thirty two","thirty three","thirty four","thirty five","thirty six","thirty seven","thirty eight",
-                "thirty nine","fourty","through",
+                "number one","number two","number three","number four","number five","number six",
+                "number seven","number eight","number nine","number zero","number eleven","number twelve","number thirteen",
+                "number fourteen","number fifteen","number sixteen","number seventeen","number eighteen","number nineteen","number twenty",
+                "number twenty one","number twenty two","number twenty three","number twenty four",
+                "number twenty five","number twenty six","number twenty seven","number twenty eight",
+                "number twenty nine","number thirty","number thirty one","number thirty two","number thirty three",
+                "number thirty four","number thirty five","number thirty six","number thirty seven","number thirty eight",
+                "number thirty nine","number fourty","through",
                 // atom commands for clearing and exiting
                 "atom clear the line","atom end the session","atom delete all","send",
                 // atom commands for displaying stucture
@@ -76,35 +79,128 @@ namespace Voice_Recognition
                 //case "speak selected text":
                 //    synthesizer.SpeakAsync(textBox1.SelectedText);
                 //    break;
-                case "one":
+                case "number zero":
+                    SendKeys.Send("0");
+                    break;
+                case "number one":
                     SendKeys.Send("1");
                     break;
-                case "two":
+                case "number two":
                     SendKeys.Send("2");
                     break;
-                case "three":
+                case "number three":
                     SendKeys.Send("3");
                     break;
-                case "four":
+                case "number four":
                     SendKeys.Send("4");
                     break;
-                case "five":
+                case "number five":
                     SendKeys.Send("5");
                     break;
-                case "six":
+                case "number six":
                     SendKeys.Send("6");
                     break;
-                case "seven":
+                case "number seven":
                     SendKeys.Send("7");
                     break;
-                case "eight":
+                case "number eight":
                     SendKeys.Send("8");
                     break;
-                case "nine":
+                case "number nine":
                     SendKeys.Send("9");
                     break;
-                case "zero":
-                    SendKeys.Send("0");
+                case "number ten":
+                    SendKeys.Send("10");
+                    break;
+                case "number eleven":
+                    SendKeys.Send("11");
+                    break;
+                case "number twelve":
+                    SendKeys.Send("12");
+                    break;
+                case "number thirteen":
+                    SendKeys.Send("13");
+                    break;
+                case "number fourteen":
+                    SendKeys.Send("14");
+                    break;
+                case "number fifteen":
+                    SendKeys.Send("15");
+                    break;
+                case "number sixteen":
+                    SendKeys.Send("16");
+                    break;
+                case "number seventeen":
+                    SendKeys.Send("17");
+                    break;
+                case "number eightteen":
+                    SendKeys.Send("18");
+                    break;
+                case "number nineteen":
+                    SendKeys.Send("19");
+                    break;
+                case "number twenty":
+                    SendKeys.Send("20");
+                    break;
+                case "number twenty one":
+                    SendKeys.Send("21");
+                    break;
+                case "number twenty two":
+                    SendKeys.Send("22");
+                    break;
+                case "number twenty three":
+                    SendKeys.Send("23");
+                    break;
+                case "number twenty four":
+                    SendKeys.Send("24");
+                    break;
+                case "number twenty five":
+                    SendKeys.Send("25");
+                    break;
+                case "number twenty six":
+                    SendKeys.Send("26");
+                    break;
+                case "number twenty seven":
+                    SendKeys.Send("27");
+                    break;
+                case "number twenty eight":
+                    SendKeys.Send("28");
+                    break;
+                case "number twenty nine":
+                    SendKeys.Send("29");
+                    break;
+                case "number thirty":
+                    SendKeys.Send("30");
+                    break;
+                case "number thrity one":
+                    SendKeys.Send("31");
+                    break;
+                case "number thirty two":
+                    SendKeys.Send("32");
+                    break;
+                case "number thirty three":
+                    SendKeys.Send("33");
+                    break;
+                case "number thiryt four":
+                    SendKeys.Send("34");
+                    break;
+                case "number thirty five":
+                    SendKeys.Send("35");
+                    break;
+                case "number thirty six":
+                    SendKeys.Send("36");
+                    break;
+                case "number thirty seven":
+                    SendKeys.Send("37");
+                    break;
+                case "number thirty eight":
+                    SendKeys.Send("38");
+                    break;
+                case "number thirty nine":
+                    SendKeys.Send("39");
+                    break;
+                case "number fourty":
+                    SendKeys.Send("40");
                     break;
                 case "adom fetch four oxy bound hemagloben":
                     SendKeys.Send("fetch 1gzx");
